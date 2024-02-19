@@ -1,0 +1,22 @@
+@import './../SCSS/Variable.scss';
+@import './../SCSS/Mixin.scss';
+
+.todo{
+    h1{
+        text-align: center;
+        color: var(--bs-title);
+        margin-bottom: 2rem;
+    }
+}
+.add-todo{
+    background: var(--bs-add-btn);
+    font-size: 1.8rem;
+}
+.backdrop {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: rgba(0, 0, 0, 0.8); /* Adjust the alpha value for darkness */
+  }

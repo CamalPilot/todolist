@@ -1,0 +1,33 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+html{
+  font-size: 10px;
+}
+body {
+  font-family: Inter, system-ui, Avenir, Helvetica, Arial, sans-serif;
+  font-size: 16px;
+  background: #7b9896;
+}
+
+a {
+  text-decoration: none;
+}
+
+li{
+  list-style: none;
+}
+
+.container{
+  max-width: 1280px;
+  margin: 0 auto;
+}
+.btn{
+  border-radius: 8px;
+  padding: .5rem 1rem;
+  border: none;
+  color: white;
+  cursor: pointer;
+}

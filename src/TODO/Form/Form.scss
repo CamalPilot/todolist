@@ -1,0 +1,52 @@
+@import './../../SCSS/Variable.scss';
+@import './../../SCSS/Mixin.scss';
+
+.modal {
+    // background: rgb(108, 108, 99);
+    backdrop-filter: invert(40%);
+    border-radius: 15px;
+    width: 40%;
+    display: flex;
+    align-items: center;
+    margin-top: 2rem;
+    position: fixed;
+    z-index: 10;
+    top: 15rem;
+    left: 45rem;
+    &__content{
+        width: 100%;
+        height: 15rem;
+        h2{
+            padding-top: 1rem;
+            color: var(--bs-white);
+            margin-bottom: 2rem;
+            text-align: center;
+        }
+        &__form{
+            // padding-left: 2rem;
+            text-align: center;
+
+            &__input{
+                width: 80%;
+                border: 1px solid var(--bs-border-color);
+                @include input;
+                margin-right: 1rem;
+            }
+            &__buttons{
+                display: flex;
+                padding-top: 1rem;
+                padding-left: 5.7rem;
+            }
+        }
+    }
+
+}
+.add{
+    background: var(--bs-add-btn);
+    color: aliceblue;
+    margin-right: 2rem;
+}
+.cancel{
+    background: firebrick;
+    color: aliceblue;
+}

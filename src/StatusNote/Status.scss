@@ -1,0 +1,20 @@
+@import './../SCSS/Mixin.scss';
+@import './../SCSS/Variable.scss';
+
+.status {
+    margin-top: 5rem;
+    // background: springgreen;
+    width: 32%;
+    height: 5rem;
+    border-radius: 18px;
+    text-align: center;
+    margin-left: 43rem;
+    
+    p{  
+        padding: 1rem;
+        font-size: 18px;
+        font-style: italic;
+        font-weight: 500;
+        
+    }
+}
